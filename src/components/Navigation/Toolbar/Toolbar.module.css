@@ -1,0 +1,29 @@
+.Toolbar {
+  width: 100%;
+  padding: 0 20px;
+  align-items: center;
+  height: 52px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #703b09;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  z-index: 90;
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 80%;
+}
+
+/* for mobile device as max width is 500px */
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
+}

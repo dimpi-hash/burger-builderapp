@@ -1,0 +1,29 @@
+.BuildControls {
+  width: 100%;
+  background-color: orangered;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin: auto;
+  padding: 10px 0;
+}
+
+/* in padding 0 is margin 0 from left and right */
+.OrderButton {
+  background-color: cyan;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid black;
+  font-family: inherit;
+  font-size: 2em;
+  padding: 5px;
+  box-shadow: 2px 3px 4px palevioletred;
+}
+
+.Disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+  color: darkgrey;
+  border: 2px solid burlywood;
+}
